@@ -12,7 +12,7 @@ exports.connect = (app) => {
 
   const connectWithRetry = () => {
     mongoose.Promise = global.Promise;
-    console.log("MongoDB connection with retryyyyyy");
+    console.log("MongoDB connection with retryyyyyyaaaa");
     mongoose
       .connect(process.env.MONGODB_URI, options)
       .then(() => {
