@@ -1,4 +1,6 @@
-FROM node:lts-buster-slim
+# Update Dockerfile
+ARG BASE_IMAGE=public.ecr.aws/docker/library/node:lts-slim
+FROM ${BASE_IMAGE}
 
 # Create app directory
 WORKDIR /usr/src/app
