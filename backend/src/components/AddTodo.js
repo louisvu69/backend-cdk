@@ -25,7 +25,7 @@ export default class AddTodo extends React.Component {
           className="form-control"
         />
         <button className="btn btn-primary" type="submit">
-          Add Todo AnhLH dzai
+          Add Todo AnhLH dzai hehehehe
         </button>
       </form>
     );
